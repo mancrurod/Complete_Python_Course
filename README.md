@@ -1,4 +1,4 @@
-# Complete_Python_Course
+# Complete Python Course
 Projects and coding exercises from “Complete Python Course: Program with Python from the beginning” by Santiago Hernández (Udemy)
 
 - Instructor: Santiago Hernández, computer engineer from University of Salamanca
