@@ -8,6 +8,7 @@ Projects and coding exercises from “Complete Python Course: Program with Pytho
 Content:
 
 - Python, basic concepts
+- Anaconda, PyCharm, Jupyter Notebook
 - Operators
 - Lists, Tuples, Dictionaries, Bytes & Bytearray, Sets, NoneType
 - Control Flow Tools (if/elif/else, for, while, break, continue, pass)
