@@ -54,7 +54,7 @@ def revisar_columnas(tablero, color):
     # Número de filas y columnas.
     num_filas = len(tablero)
     num_columnas = len(tablero[0])
-    # Recorremos las filas en busca de cuatro en raya.
+    # Recorremos las columnas en busca de cuatro en raya.
     for c in range(num_columnas):
         for r in range(num_filas - 3):
             if tablero[r][c] == color and tablero[r+1][c] == color and tablero[r+2][c] == color and tablero[r+3][c] == color:
@@ -64,7 +64,7 @@ def revisar_diagonal_derecha(tablero, color):
     # Número de filas y columnas.
     num_filas = len(tablero)
     num_columnas = len(tablero[0])
-    # Recorremos las filas en busca de cuatro en raya.
+    # Recorremos las diagonales hacia la derecha en busca de cuatro en raya.
     for c in range(num_columnas - 3):
         for r in range(num_filas-1, 2, -1):
             if tablero[r][c] == color and tablero[r-1][c+1] == color and tablero[r-2][c+2] == color and tablero[r-3][c+3] == color:
@@ -74,7 +74,7 @@ def revisar_diagonal_izquierda(tablero, color):
     # Número de filas y columnas.
     num_filas = len(tablero)
     num_columnas = len(tablero[0])
-    # Recorremos las filas en busca de cuatro en raya.
+    # Recorremos las diagonales hacia la izquierda en busca de cuatro en raya.
     for c in range(num_columnas-1, 2, -1):
         for r in range(num_filas-1, 2, -1):
             if tablero[r][c] == color and tablero[r-1][c-1] == color and tablero[r-2][c-2] == color and tablero[r-3][c-3] == color:
