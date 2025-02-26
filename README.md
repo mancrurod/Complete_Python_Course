@@ -35,7 +35,7 @@ The course covers a wide range of fundamental and advanced topics in Python. Bel
 
 The repository structure is as follows:
 
-```
+```plaintext
 Complete_Python_Course/
 │
 ├── README.md                # Course description and content
@@ -45,12 +45,12 @@ Complete_Python_Course/
 │   ├── exercise2.py
 │   └── ...
 ├── final_projects/          # Final projects from the course
-│   ├── snake_videogame/
-│   │   ├── main.py
-│   │   └── ...
-│   └── spam_filter/
-│       ├── main.py
-│       └── ...
+    ├── snake_videogame/
+    │   ├── main.py
+    │   └── ...
+    └── spam_filter/
+        ├── main.py
+        └── ...
 ```
 
 ## Final Projects
