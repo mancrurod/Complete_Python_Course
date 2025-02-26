@@ -31,6 +31,28 @@ The course covers a wide range of fundamental and advanced topics in Python. Bel
 - **Modular Programming**: Creating and using modules and packages in Python to organize code.
 - **Exception Handling**: Use of `try`, `except`, `else`, and `finally` for error and exception handling.
 
+## Repository Structure
+
+The repository structure is as follows:
+
+```
+Complete_Python_Course/
+│
+├── README.md                # Course description and content
+├── .git/                    # Git configuration files
+├── exercises/               # Practical exercises from the course
+│   ├── exercise1.py
+│   ├── exercise2.py
+│   └── ...
+├── final_projects/          # Final projects from the course
+│   ├── snake_videogame/
+│   │   ├── main.py
+│   │   └── ...
+│   └── spam_filter/
+│       ├── main.py
+│       └── ...
+```
+
 ## Final Projects
 
 The course includes two final projects that apply the concepts learned:
